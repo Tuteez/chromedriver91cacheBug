@@ -1,4 +1,4 @@
-it('todo', async () => {
+it('should clear stale element references', async () => {
     await browser.url('https://todomvc.com/examples/react/#/')
 
     //add and remove task 1
